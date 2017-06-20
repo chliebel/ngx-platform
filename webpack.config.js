@@ -7,7 +7,7 @@ module.exports = {
     entry: path.resolve('src/index.ts'),
     output: {
         filename: 'core.umd.js',
-        path: path.resolve('build/dist/bundles'),
+        path: path.resolve('build/dist'),
         library: '@ngx-platform/core',
         libraryTarget: 'umd',
     },
