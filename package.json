@@ -1,0 +1,51 @@
+{
+  "name": "@ngx-platform/core",
+  "version": "1.0.0",
+  "description": "Service for recognising the current platform Angular is running on.",
+  "main": "index.js",
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.2.3",
+    "@angular/compiler": "4.2.3",
+    "@angular/core": "^4.2.3",
+    "@angular/platform-browser": "^4.2.3",
+    "@angular/platform-browser-dynamic": "4.2.3",
+    "rxjs": "^5.4.1",
+    "zone.js": "^0.8.12",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelRauber/ngx-platform.git"
+  },
+  "keywords": [
+    "angular",
+    "platform",
+    "electron",
+    "cordova",
+    "universal",
+    "web",
+    "browser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelRauber/ngx-platform/issues"
+  },
+  "homepage": "https://github.com/ManuelRauber/ngx-platform#readme",
+  "dependencies": {
+    "@types/cordova": "0.0.34",
+    "@types/node": "8.0.0"
+  }
+}
