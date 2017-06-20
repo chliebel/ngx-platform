@@ -14,4 +14,5 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 deploy:
+  provider: npm
   skip_cleanup: true
