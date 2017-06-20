@@ -1,5 +1,5 @@
 {
-  "name": "@ngx-platform/core",
+  "name": "ngx-platform",
   "version": "0.0.0-development",
   "description": "Service for recognising the current platform Angular is running on.",
   "main": "index.js",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "clean": "rimraf build",
-    "prepublish": "npm run clean && npm run build",
+    "prepublishOnly": "npm run clean && npm run build",
     "build": "webpack",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
