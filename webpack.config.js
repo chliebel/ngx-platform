@@ -6,8 +6,8 @@ module.exports = {
     devtool: 'cheap-source-map',
     entry: path.resolve('src/index.ts'),
     output: {
-        filename: 'core.umd.js',
-        path: path.resolve('build/dist'),
+        filename: 'ngx-platform.umd.js',
+        path: path.resolve('dist'),
         library: 'ngx-platform',
         libraryTarget: 'umd',
     },

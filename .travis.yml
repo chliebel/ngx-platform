@@ -13,3 +13,5 @@ after_success:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+deploy:
+  skip_cleanup: true

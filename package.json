@@ -2,7 +2,8 @@
   "name": "ngx-platform",
   "version": "0.0.0-development",
   "description": "Service for recognising the current platform Angular is running on.",
-  "main": "index.js",
+  "main": "dist/ngx-platform.umd.js",
+  "typings": "dist/index.d.ts",
   "peerDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "4.0.0",
