@@ -1,15 +1,15 @@
 {
-  "name": "ngx-platform",
-  "version": "0.0.0-development",
+  "name": "@ngx-unicorns/ngx-platform",
+  "version": "0.0.0-semantic-release",
   "description": "Service for recognising the current platform Angular is running on.",
   "main": "dist/ngx-platform.umd.js",
   "types": "dist/index.d.ts",
   "peerDependencies": {
     "@angular/common": "^4.0.0",
-    "@angular/compiler": "4.0.0",
+    "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "4.0.0"
+    "@angular/platform-browser-dynamic": "^4.0.0"
   },
   "devDependencies": {
     "@angular/common": "^4.2.3",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ManuelRauber/ngx-platform.git"
+    "url": "https://github.com/ngx-unicorns/ngx-platform.git"
   },
   "keywords": [
     "angular",
@@ -45,14 +45,17 @@
     "web",
     "browser"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
+  "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/ManuelRauber/ngx-platform/issues"
+    "url": "https://github.com/ngx-unicorns/ngx-platform/issues"
   },
-  "homepage": "https://github.com/ManuelRauber/ngx-platform#readme",
+  "homepage": "https://github.com/ngx-unicorns/ngx-platform#readme",
   "dependencies": {
     "@types/cordova": "0.0.34",
     "@types/node": "8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
