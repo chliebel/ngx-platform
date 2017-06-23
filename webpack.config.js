@@ -8,7 +8,7 @@ module.exports = {
     output: {
         filename: 'ngx-platform.umd.js',
         path: path.resolve('dist'),
-        library: '@thinktecture/ngx-platform',
+        library: '@ngx-unicorns/ngx-platform',
         libraryTarget: 'umd',
     },
     resolve: {
