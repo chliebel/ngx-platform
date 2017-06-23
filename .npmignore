@@ -1,4 +1,8 @@
-src
 node_modules
 .travis.yml
 webpack.config.js
+*.ts
+*.ngsummary.json
+dist/compiled
+dist/dist
+/src

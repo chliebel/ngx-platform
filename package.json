@@ -27,8 +27,8 @@
     "zone.js": "^0.8.12"
   },
   "scripts": {
-    "clean": "rimraf build",
-    "prepublishOnly": "npm run clean && npm run build",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && ngc && npm run build",
     "build": "webpack",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
