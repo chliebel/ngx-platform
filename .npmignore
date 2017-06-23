@@ -6,3 +6,4 @@ src
 .nvmrc
 tsconfig.json
 .idea
+dist/*.js
