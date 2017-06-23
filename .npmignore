@@ -1,8 +1,8 @@
 node_modules
 .travis.yml
 webpack.config.js
-*.ts
-*.ngsummary.json
-dist/compiled
-dist/dist
-/src
+src
+.editorconfig
+.nvmrc
+tsconfig.json
+.idea
