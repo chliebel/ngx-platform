@@ -7,7 +7,7 @@ export class PlatformService {
    * Returns true, if the current application is running within cordova.
    * This method should only be used for bootstrapping the application.
    */
-  public static isCordovaApplication(): boolean {
+  public static get isCordovaApplication(): boolean {
     // Global is only set when running on a server platform, where accessing window object would crash the application
     return !global && !!window.cordova;
   }
@@ -16,7 +16,7 @@ export class PlatformService {
   }
 
   public get isCordovaApplication(): boolean {
-    return !this.isServerApplication && PlatformService.isCordovaApplication();
+    return !this.isServerApplication && PlatformService.isCordovaApplication;
   }
 
   public get isElectronApplication(): boolean {
