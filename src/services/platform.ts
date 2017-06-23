@@ -1,7 +1,8 @@
-import {Inject, PLATFORM_ID} from '@angular/core';
+import {Inject, Injectable, PLATFORM_ID} from '@angular/core';
 import {isPlatformBrowser, isPlatformServer} from '@angular/common';
 import {WindowRef} from './windowRef';
 
+@Injectable()
 export class PlatformService {
   /**
    * Returns true, if the current application is running within cordova.
