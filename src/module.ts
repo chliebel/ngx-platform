@@ -4,9 +4,7 @@ import {PlatformService} from './services/platform';
 
 export * from './services/index';
 
-@NgModule({
-
-})
+@NgModule()
 export class PlatformModule {
   public static forRoot(): ModuleWithProviders {
     return {
