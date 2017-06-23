@@ -21,7 +21,10 @@ module.exports = {
         test: /\.ts$/,
         loader: 'ts-loader',
         options: {
-          silent: true
+          silent: true,
+          compilerOptions: {
+            "module": "es2015"
+          }
         }
       }
     ]
