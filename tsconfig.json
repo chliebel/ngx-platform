@@ -20,6 +20,7 @@
   ],
   "angularCompilerOptions": {
     "genDir": "dist",
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "entryModule": "./src/module#PlatformModule"
   }
 }
