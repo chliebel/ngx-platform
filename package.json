@@ -1,5 +1,5 @@
 {
-  "name": "@ngx-unicorns/ngx-platform",
+  "name": "@ngx-gems/ngx-platform",
   "version": "0.0.0-semantic-release",
   "description": "Service for recognising the current platform Angular is running on.",
   "main": "dist/ngx-platform.umd.js",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngx-unicorns/ngx-platform.git"
+    "url": "https://github.com/ngx-gems/ngx-platform.git"
   },
   "keywords": [
     "angular",
@@ -49,9 +49,9 @@
   "author": "Manuel Rauber <manuel.rauber@thinktecture.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/ngx-unicorns/ngx-platform/issues"
+    "url": "https://github.com/ngx-gems/ngx-platform/issues"
   },
-  "homepage": "https://github.com/ngx-unicorns/ngx-platform#readme",
+  "homepage": "https://github.com/ngx-gems/ngx-platform#readme",
   "dependencies": {
     "@types/cordova": "0.0.34",
     "@types/node": "8.0.0"
